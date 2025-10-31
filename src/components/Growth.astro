@@ -1,31 +1,37 @@
+---
+import GoogleRating from "./GoogleRating.astro";
+---
+
 <section 
 
-  class="relative overflow-hidden bg-gray-100 min-h-[400px]"
+  class="relative overflow-hidden min-h-[400px]"
   style='background-image: url("https://sandbox.elemisthemes.com/assets/img/map.png");
          background-size: cover;
          background-position: center;'>
   
   <div class="relative mx-auto flex h-full w-full flex-col items-center justify-center px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
     
-    <h2 class="px-4 pt-4 pb-6 text-3xl text-blue-600 sm:text-4xl xl:text-5xl">
+    <h2 class="px-4 pt-4 pb-6 text-3xl sm:text-4xl xl:text-5xl">
       Our <span class="font-bold">Growth</span>
     </h2>
+
+    <GoogleRating></GoogleRating>
 
     <div class="mx-auto grid max-w-screen-lg grid-cols-1 gap-y-4 gap-x-8 text-center sm:mt-12 sm:text-left md:grid-cols-3">
       
       
-      <div class="bg-white/70 rounded-3xl border px-12 py-10 shadow backdrop-blur-sm">
-        <p class="text-3xl font-black text-blue-600 sm:text-5xl">25M</p>
+      <div class=" rounded-3xl border px-12 py-10 shadow backdrop-blur-sm">
+        <p class="text-3xl font-black sm:text-5xl">25M</p>
         <p class="mt-5 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <!-- Repeat other cards -->
-      <div class="bg-white/70 rounded-3xl border px-12 py-10 shadow backdrop-blur-sm">
-        <p class="text-3xl font-black text-blue-600 sm:text-5xl">51%</p>
+      <div class=" rounded-3xl border px-12 py-10 shadow backdrop-blur-sm">
+        <p class="text-3xl font-black  sm:text-5xl">51%</p>
         <p class="mt-5 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
 
-      <div class="bg-white/70 rounded-3xl border px-12 py-10 shadow backdrop-blur-sm">
-        <p class="text-3xl font-black text-blue-600 sm:text-5xl">+8529</p>
+      <div class=" rounded-3xl border px-12 py-10 shadow backdrop-blur-sm">
+        <p class="text-3xl font-black  sm:text-5xl">+8529</p>
         <p class="mt-5 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       
