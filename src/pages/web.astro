@@ -1,4 +1,8 @@
 ---
+import ComoTrabajamos from '../components/ComoTrabajamos.astro';
+import ProyectosWeb from '../components/ProyectosWeb.astro';
+import WebFeatures from '../components/WebFeatures.astro';
+import WebHero from '../components/WebFeatures.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -15,84 +19,12 @@ import Layout from '../layouts/Layout.astro';
       <li class="flex items-center gap-2"><span class="text-indigo-600">✔</span> Correo corporativo gratis</li>
     </ul>
   </section>
-  <section class="py-12 md:py-20">
-    <h2 class="text-3xl md:text-5xl font-bold text-center">¿Tu web te está dando más problemas que resultados?</h2>
-    <p class="text-center mt-4">Te ayudamos a darle la vuelta.</p>
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-16 h-16 bg-muted rounded-full mx-auto"></div>
-        <h3 class="text-xl font-bold mt-4 text-center">Mi web está desactualizada</h3>
-        <p class="text-muted-foreground mt-2">Le damos una segunda vida a tu web: revisamos tu código, corregimos errores y te proponemos un rediseño moderno, adaptado a lo que necesitas.</p>
-      </div>
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-16 h-16 bg-muted rounded-full mx-auto"></div>
-        <h3 class="text-xl font-bold mt-4 text-center">Mi página carga muy lento</h3>
-        <p class="text-muted-foreground mt-2">La velocidad importa, y mucho. Optimizamos cada rincón de tu web y servidor para que tu sitio vuele y Google te mire con buenos ojos.</p>
-      </div>
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-16 h-16 bg-muted rounded-full mx-auto"></div>
-        <h3 class="text-xl font-bold mt-4 text-center">Navegar por mi web es un lío</h3>
-        <p class="text-muted-foreground mt-2">Diseñamos una experiencia de usuario clara y fluida. Tus visitantes encontrarán lo que buscan… y volverán.</p>
-      </div>
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-16 h-16 bg-muted rounded-full mx-auto"></div>
-        <h3 class="text-xl font-bold mt-4 text-center">Me han hackeado</h3>
-        <p class="text-muted-foreground mt-2">Una web sin mantenimiento es un imán para los problemas. Auditamos tu sitio, actualizamos todo lo necesario y lo blindamos contra amenazas.</p>
-      </div>
-    </div>
-  </section>
-  <section class="py-12 md:py-20">
-    <h2 class="text-3xl md:text-5xl font-bold text-center">Cómo trabajamos</h2>
-    <p class="text-center mt-4">Nuestro proceso de desarrollo</p>
-    <p class="text-center mt-2 max-w-3xl mx-auto">En 4 pasos construimos tu proyecto web desde la idea inicial hasta el lanzamiento y mantenimiento continuo</p>
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-16 h-16 bg-muted rounded-full mx-auto"></div>
-        <h3 class="text-xl font-bold mt-4 text-center">PASO 1</h3>
-        <h4 class="text-lg font-bold mt-2 text-center">Briefing inicial</h4>
-        <p class="text-muted-foreground mt-2">Nos reunimos contigo para entender tu proyecto, objetivos y necesidades específicas. Establecemos juntos las bases del desarrollo.</p>
-      </div>
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-16 h-16 bg-muted rounded-full mx-auto"></div>
-        <h3 class="text-xl font-bold mt-4 text-center">PASO 2</h3>
-        <h4 class="text-lg font-bold mt-2 text-center">Diseño UI personalizado</h4>
-        <p class="text-muted-foreground mt-2">Diseñamos la interfaz cuidando tipografía, colores e iconografía alineados con tu marca. Podrás revisar y solicitar ajustes.</p>
-      </div>
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-16 h-16 bg-muted rounded-full mx-auto"></div>
-        <h3 class="text-xl font-bold mt-4 text-center">PASO 3</h3>
-        <h4 class="text-lg font-bold mt-2 text-center">Desarrollo web</h4>
-        <p class="text-muted-foreground mt-2">Programamos tu web con tecnologías actuales, diseño responsive y optimización SEO. Implementamos las funcionalidades personalizadas.</p>
-      </div>
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-16 h-16 bg-muted rounded-full mx-auto"></div>
-        <h3 class="text-xl font-bold mt-4 text-center">PASO 4</h3>
-        <h4 class="text-lg font-bold mt-2 text-center">Entrega y soporte</h4>
-        <p class="text-muted-foreground mt-2">Presentamos el proyecto final, te formamos en el uso de la plataforma y ofrecemos mantenimiento técnico con mejoras continuas.</p>
-      </div>
-    </div>
-  </section>
-  <section class="py-12 md:py-20">
-    <h2 class="text-3xl md:text-5xl font-bold text-center">Nuestros Proyectos</h2>
-    <p class="text-center mt-4">Echa un vistazo a algunos trabajos que hemos hecho últimamente. Cada uno con su toque especial y pensado para funcionar de verdad.</p>
-    <div class="grid md:grid-cols-3 gap-8 mt-8">
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-full h-32 bg-muted rounded-md"></div>
-        <h3 class="text-xl font-bold mt-4">Clipbeat</h3>
-        <p class="text-muted-foreground mt-2">Desarrollo completo de plataforma web y aplicación móvil para conectar músicos con locales y eventos. Sistema de audiciones y gestión de pagos.</p>
-      </div>
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-full h-32 bg-muted rounded-md"></div>
-        <h3 class="text-xl font-bold mt-4">Fotur</h3>
-        <p class="text-muted-foreground mt-2">Sitio web corporativo para la Federación de Ocio, Turismo, Juego, Actividades Recreativas e Industrias Afines de la Comunitat Valenciana.</p>
-      </div>
-      <div class="p-6 bg-card rounded-md shadow-md">
-        <div class="w-full h-32 bg-muted rounded-md"></div>
-        <h3 class="text-xl font-bold mt-4">BG Signature Journeys</h3>
-        <p class="text-muted-foreground mt-2">Plataforma de comercio electrónico especializada en viajes de lujo y experiencias exclusivas. Integración con sistemas de reservas.</p>
-      </div>
-    </div>
-  </section>
+  <WebHero></WebHero>
+  <WebFeatures></WebFeatures>
+  
+  <ComoTrabajamos></ComoTrabajamos>
+  <ProyectosWeb></ProyectosWeb>
+  
   <section class="py-12 md:py-20">
     <h2 class="text-3xl md:text-5xl font-bold text-center">Preguntas Frecuentes</h2>
     <p class="text-center mt-4">Resolvemos todas tus dudas</p>
@@ -131,4 +63,5 @@ import Layout from '../layouts/Layout.astro';
       </div>
     </div>
   </section>
+  
 </Layout>
